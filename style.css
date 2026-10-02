@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333333;
+    margin: 0;
+}
+
+/* Yläpalkki */
+
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    margin: 0 0 8px 0;
+}
+
+header p {
+    margin: 0;
+}
+
+/* Sivun sisältö */
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Kortit */
+
+section,
+article {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Kuvan tyyli */
+
+.login img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* Otsikot */
+
+h2 {
+    color: #2563eb;
+}
+
+h3 {
+    color: #333333;
+}
+
+/* Teksti */
+
+p {
+    line-height: 1.6;
+}
+
+/* Listat */
+
+ul {
+    line-height: 1.8;
+    padding-left: 25px;
+}
+
+/* Linkit */
+
+a {
+    color: #2563eb;
+}
+
+/* Painikkeet */
+
+.button {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 22px;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(37, 99, 235, 0.25);
+    transition: 0.2s;
+}
+
+/* Painikkeen hover */
+
+.button:hover {
+    background-color: #174ea6;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* Tavallisten linkkien hover */
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Alapalkki */
+
+footer {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Pienemmät näytöt */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 25px 15px;
+    }
+
+    main {
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    section,
+    article {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .button {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+        /* Opintojen yhteenveto */
+    .stats {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .stat-box {
+        flex: 1;
+        min-width: 150px;
+        background-color: #f5f7fa;
+        padding: 18px;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px solid #e1e5eb;
+    }
+
+    .stat-box h3 {
+        color: #2563eb;
+        margin-top: 0;
+        font-size: 22px;
+    }
+
+    .stat-box p {
+        margin-bottom: 0;
+    }
+
+    /* Kurssit */
+    .course {
+        background-color: #f5f7fab7;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border-left: 4px solid #2563eb;
+    }
+
+    .course h3 {
+        margin-top: 0;
+    }
+
+    .course p {
+        margin-bottom: 5px;
+    }
+    
+}
